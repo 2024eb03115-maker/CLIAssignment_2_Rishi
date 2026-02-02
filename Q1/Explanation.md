@@ -1,1 +1,1 @@
-
+I used the if [ "$#" -ne 1 ] condition to check for the correct number of arguments and the -e flag to verify if the path exists. I employed the -f option to identify if the input is a file, using the wc command to gather line, word, and character counts. For directories, I used the -d flag along with the find command and the -maxdepth 1 option to count total files and specific .txt files while using wc -l to output the line count of the results.
